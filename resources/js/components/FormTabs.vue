@@ -173,9 +173,9 @@ export default {
         getBodyClass(tab) {
             const classes = [];
 
-            if (!tab.listable) {
-                classes.push('px-6 py-3');
-            }
+            // if (!tab.listable) {
+            //     classes.push('px-6 py-3');
+            // }
 
             return classes.concat(tab.properties.bodyClass);
         },
